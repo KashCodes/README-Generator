@@ -12,7 +12,7 @@
   </p>
   
   ## Description:
-  ❓ This Node.js application will help Web Developers to automatically generate a formated `README.me` file for any application they may have created.
+  ❓ This Node.js application will help Web Developers to automatically generate a formated `README.me` file for any application they may have created..
 
   
   ## Table of Contents:
