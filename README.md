@@ -11,11 +11,11 @@
     <img src="https://img.shields.io/github/last-commit/KashCodes/README-Generator?style=plastic" />
   </p>
   
-  ## Description
+  ## Description:
   ❓ This Node.js application will help Web Developers to automatically generate a formated `README.me` file for any application they may have created.
 
   
-  ## Table of Contents
+  ## Table of Contents:
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -24,30 +24,32 @@
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
+  ## Installation:
   🚨 You will need to export/download the code to you local machine. You will need to install Node.js. As well as the NPM Inquirer package.   Once installed you will be able to run the `node index` command in GitBash or your command line of choice. You will be prompted to answer a series of questions that will auto-fill the newly generated README.md file. You will then find your updated file located in the `./dist/README.md` location. It is important you fill out exactly what's being asked in each question so the links work properly and connect to your GitHub profile.
 
   ### Link to Walkthrough Video:
-  > - Click Here for an external video link. [External Video Link](https://drive.google.com/file/d/1jl7R5CbRVy2_0u0WVisuvdRNIaMPE9J5/view)
-  > - Click Here for the downloaded MP4 video saved locally. ![Locally Saved Video in src Directory](./src/README Generator Walkthrough Video.mp4)
-  > Gif of Walkthrough: 
-  > ![README Walkthrough Gif](./src/README Generator Walkthrough Gif.gif)
+  > - [Click Here for an external video link.](https://drive.google.com/file/d/1jl7R5CbRVy2_0u0WVisuvdRNIaMPE9J5/view)
+  > - [Click Here for the downloaded MP4 video saved locally.](./src/README Generator Walkthrough Video.mp4)
 
-  ## Usage
+:loop: Here's a GIF showing the app's overall functionality:
+
+![README Walkthrough Gif](./src/README Generator Walkthrough Gif.gif)
+
+  ## Usage:
   🚀 This Node.js application uses the NPM Inquirer package to help users automatically generate their own professional `README.md` files. Once generated the file will include the title, a description, a hyper-linked table of contents, installation instructions (if any), an area to describe what the application should be used for, the license used for your repository application, a list of any additional contriubutors, what tests you should be able to run to troubleshoot, as well as contact information should someone have questions, comments, or concerns about your application/repository.
 
-  ## License
+  ## License:
   ![badge](https://img.shields.io/badge/license-MIT-success)
   <br />
   This application is covered by the MIT license.
 
-  ## Contributors
+  ## Contributors:
   👥 Kashay Arbelo, Dan Arbelo, & John Pendergrass
 
-  ## Tests
+  ## Tests:
   ✏️ To verify the NPM Inquirer package version installed type `npm list` in yur command line.
 
-  ## Questions
+  ## Questions:
   🔧 Please feel free e-mail me should you have any questions, comments, or concerns.  Or you can also connect with me through GitHub.<br />
     <br />
     :octocat: Find me on GitHub: [KashCodes](https://github.com/KashCodes)<br />

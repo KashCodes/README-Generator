@@ -14,11 +14,11 @@ function generateMarkdown(answers) {
     <img src="https://img.shields.io/github/last-commit/${answers.username}/${answers.repoName}?style=plastic" />
   </p>
   
-  ## Description
+  ## Description:
   ❓ ${answers.description}
 
   
-  ## Table of Contents
+  ## Table of Contents:
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -27,24 +27,24 @@ function generateMarkdown(answers) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
+  ## Installation:
   🚨 ${answers.installation}
 
-  ## Usage
+  ## Usage:
   🚀 ${answers.usage}
 
-  ## License
+  ## License:
   ![badge](https://img.shields.io/badge/license-${answers.license}-success)
   <br />
   This application is covered by the ${answers.license} license.
 
-  ## Contributors
+  ## Contributors:
   👥 ${answers.contributors}
 
-  ## Tests
+  ## Tests:
   ✏️ ${answers.tests}
 
-  ## Questions
+  ## Questions:
   🔧 ${answers.questions}<br />
     <br />
     :octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
