@@ -25,7 +25,7 @@
   - [Questions](#questions)
 
   ## Installation:
-  🚨 You will need to export/download the code to you local machine. You will need to install Node.js. As well as the NPM Inquirer package.   Once installed you will be able to run the `node index` command in GitBash or your command line of choice. You will be prompted to answer a series of questions that will auto-fill the newly generated README.md file. You will then find your updated file located in the `./dist/README.md` location. It is important you fill out exactly what's being asked in each question so the links work properly and connect to your GitHub profile.
+  🚨 You will need to export/download the code to you local machine. You will need to install Node.js. As well as the NPM Inquirer package. You'll need to use `npm init` to create your `package.json`. Then use `npm i inquirer` to install Inquirer package to your local application as these will not be downloaded.  Once installed you will be able to run the `node index` command in GitBash or your command line of choice. You will be prompted to answer a series of questions that will auto-fill the newly generated README.md file. You will then find your updated file located in the `./dist/README.md` location. It is important you fill out exactly what's being asked in each question so the links work properly and connect to your GitHub profile.
 
   ### Link to Walkthrough Video:
   > - [Click Here for an external video link.](https://drive.google.com/file/d/1ZcT_xT9xDOOrXDOjrFpcKALfTTh31Qqg/view)
