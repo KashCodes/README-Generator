@@ -27,6 +27,12 @@
   ## Installation
   🚨 You will need to export/download the code to you local machine. You will need to install Node.js. As well as the NPM Inquirer package.   Once installed you will be able to run the `node index` command in GitBash or your command line of choice. You will be prompted to answer a series of questions that will auto-fill the newly generated README.md file. You will then find your updated file located in the `./dist/README.md` location. It is important you fill out exactly what's being asked in each question so the links work properly and connect to your GitHub profile.
 
+  ### Link to Walkthrough Video:
+  > - Click Here for an external video link. [External Video Link](https://drive.google.com/file/d/1jl7R5CbRVy2_0u0WVisuvdRNIaMPE9J5/view)
+  > - Click Here for the downloaded MP4 video saved locally. [Locally Saved Video in 'src' Directory](./src/README Generator Walkthrough Video.mp4)
+  > Gif of Walkthrough: 
+  > ![README Walkthrough Gif](./src/README Generator Walkthrough Gif.gif)
+
   ## Usage
   🚀 This Node.js application uses the NPM Inquirer package to help users automatically generate their own professional `README.md` files. Once generated the file will include the title, a description, a hyper-linked table of contents, installation instructions (if any), an area to describe what the application should be used for, the license used for your repository application, a list of any additional contriubutors, what tests you should be able to run to troubleshoot, as well as contact information should someone have questions, comments, or concerns about your application/repository.
 
@@ -48,6 +54,6 @@
     <br />
     📜 Feel free to email me with any questions: kashay@arbelo.me<br /><br />
 
-  
+
 
 [How to create a Professional README](./readme-guide.md)
