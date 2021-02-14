@@ -10,75 +10,86 @@ var generateMarkdown = require('./utils/generateMarkdown');
 var fs = require('fs');
 
 // connect path that is built into node
-var path = require('path');
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
-const questions = [
-  {
-    type: 'input',
-    name: 'title',
-    message: 'What is the title of your project?',
-  },
-  {
-    type: 'input',
-    name: 'description',
-    message: 'How would you describe your project in a few words?',
-  },
-  {
-    type: 'list',
-    name: 'license',
-    message: 'Which license are you using?',
-    choices: ['MIT', 'BSD 3', 'GPL 3.0', 'Apache 2.0', 'None'],
-  },
-  {
-    type: 'input',
-    name: 'github',
-    message: 'What is your GitHub Username?',
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'What is your e-mail address?',
-  },
-  {
-    type: 'input',
-    name: 'installation',
-    message: 'How do you install dependancies?',
-    default: 'npm i'
-  },
-  {
-    type: 'input',
-    name: 'test',
-    message: 'How do you run tests?',
-    default: 'npm test'
-  },
-  {
-    type: 'input',
-    name: 'usage',
-    message: 'What are the instructions on how to use this app?',
-  },
-  {
-    type: 'input',
-    name: 'contribution',
-    message: 'How to contribute?',
-  },
+function promptUser(){
+  return inquirer.prompt([
+      {
+        type: "input",
+        name: "projectTitle",
+        message: "What is the name of your project?",
+      },
+      {
+        type: "input",
+        name: "description",
+        message: "Provide a summarized description of your project: ",
+      },
+      {
+        type: "input",
+        name: "installation",
+        message: "Is there an installation process? Is so, please describe it: ",
+      },
+      {
+        type: "input",
+        name: "usage",
+        message: "What usage is this project designed for?",
+      },
+      {
+        type: "list",
+        name: "license",
+        message: "Choose the license used for your project: ",
+        choices: [
+          "Apache",
+          "Academic",
+          "GNU",
+          "ISC",
+          "MIT",
+          "Mozilla",
+          "Open"
+        ]
+      },
+      {
+        type: "input",
+        name: "contributors",
+        message: "Who contributed to this project?",
+      },
+      {
+        type: "input",
+        name: "tests",
+        message: "Are there any tests to include?",
+      },
+      {
+        type: "input",
+        name: "questions",
+        message: "If I have an issue, what should I do?",
+      },
+      {
+        type: "input",
+        name: "username",
+        message: "Please provide your GitHub username: ",
+      },
+      {
+        type:"input",
+        name: "email",
+        message: "Please provide your email: "
+    }
 
-];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  return fs.writeFileSync(path.join(fileName), data)
+  ]);
 }
 
-// TODO: Create a function to initialize app
-function init() {
-  inquirer
-  .prompt(questions)
-  .then(answers => {
-    console.log('Making README now.');
-    writeToFile('README.md', generateMarkdown({...answers}));
-  })
-}
+// Function using util.promisify
+  async function init() {
+    try{
+      //Chain that asks questions and generates the responses
+      const answers = await promptUser();
+      const generateContent = generateMarkdown(answers);
+      //Create name README.md to the dist directory
+      await writeFileAsync("./dist/README.md", generateContent);
+      console.log("✨README.md has been successfully created!✨")
+    } catch(err) {
+      console.log(err);
+    }
+  }
 
-// Function call to initialize app
-init();
+  init();
