@@ -36,6 +36,9 @@
 
 ![README Walkthrough Gif](./src/demo-gif.gif)
 
+## GitHub Repository Link: 
+> https://github.com/KashCodes/README-Generator
+
   ## Usage:
   🚀 This Node.js application uses the NPM Inquirer package to help users automatically generate their own professional `README.md` files. Once generated the file will include the title, a description, a hyper-linked table of contents, installation instructions (if any), an area to describe what the application should be used for, the license used for your repository application, a list of any additional contriubutors, what tests you should be able to run to troubleshoot, as well as contact information should someone have questions, comments, or concerns about your application/repository.
 

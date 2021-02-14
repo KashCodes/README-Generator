@@ -30,6 +30,9 @@ function generateMarkdown(answers) {
   ## Installation:
   🚨 ${answers.installation}
 
+  ## GitHub Repository Link: 
+  > https://github.com/${answers.username}/${answers.repoName}
+
   ## Usage:
   🚀 ${answers.usage}
 
