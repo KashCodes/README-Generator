@@ -22,6 +22,11 @@ function promptUser(){
       },
       {
         type: "input",
+        name: "repoName",
+        message: "What is the exact name(case sensitive) of your repository on GitHub?",
+      },
+      {
+        type: "input",
         name: "description",
         message: "Provide a summarized description of your project: ",
       },
