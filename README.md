@@ -29,7 +29,7 @@
 
   ### Link to Walkthrough Video:
   > - Click Here for an external video link. [External Video Link](https://drive.google.com/file/d/1jl7R5CbRVy2_0u0WVisuvdRNIaMPE9J5/view)
-  > - Click Here for the downloaded MP4 video saved locally. [Locally Saved Video in 'src' Directory](./src/README Generator Walkthrough Video.mp4)
+  > - Click Here for the downloaded MP4 video saved locally. ![Locally Saved Video in src Directory](./src/README Generator Walkthrough Video.mp4)
   > Gif of Walkthrough: 
   > ![README Walkthrough Gif](./src/README Generator Walkthrough Gif.gif)
 
