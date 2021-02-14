@@ -1,13 +1,16 @@
 // TODO: Include packages needed for this application
 
 //connect inquirer npm 
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
 
 // connect generateMarkdown.js
-var generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // connect built in node file system
-var fs = require('fs');
+const fs = require('fs');
+
+// define the util function
+const util = require("util");
 
 // connect path that is built into node
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -23,7 +26,7 @@ function promptUser(){
       {
         type: "input",
         name: "repoName",
-        message: "What is the exact name(case sensitive) of your repository on GitHub?",
+        message: "What is the EXACT name (case sensitive/include '-', etc..) of your repository on GitHub?",
       },
       {
         type: "input",

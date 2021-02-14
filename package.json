@@ -1,0 +1,28 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generates README files. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KashCodes/README-Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "node",
+    "inquirer"
+  ],
+  "author": "Kashay Arbelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KashCodes/README-Generator/issues"
+  },
+  "homepage": "https://github.com/KashCodes/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

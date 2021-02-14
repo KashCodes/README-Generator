@@ -5,8 +5,8 @@ function generateMarkdown(answers) {
   <h1 align="center">${answers.projectTitle} </h1>
   
   <p align="center">
-    ![badge](https://img.shields.io/badge/license-${answers.license}-success)
-  </p>  
+    <img src="https://img.shields.io/badge/license-${answers.license}-success" />
+  </p> 
   <p align="center">
     <img src="https://img.shields.io/github/repo-size/${answers.username}/${answers.repoName}?style=plastic" />
     <img src="https://img.shields.io/github/languages/count/${answers.username}/${answers.repoName}?style=plastic" />
