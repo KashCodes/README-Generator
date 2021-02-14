@@ -39,7 +39,7 @@
   👥 Kashay Arbelo, Dan Arbelo, & John Pendergrass
 
   ## Tests
-  ✏️ To verify the NPM Inquirer package version installed type `npm list`.
+  ✏️ To verify the NPM Inquirer package version installed type `npm list` in yur command line.
 
   ## Questions
   🔧 Please feel free e-mail me should you have any questions, comments, or concerns.  Or you can also connect with me through GitHub.<br />
