@@ -29,11 +29,12 @@
 
   ### Link to Walkthrough Video:
   > - [Click Here for an external video link.](https://drive.google.com/file/d/1jl7R5CbRVy2_0u0WVisuvdRNIaMPE9J5/view)
-  > - [Click Here for the downloaded MP4 video saved locally.](./src/README Generator Walkthrough Video.mp4)
+  > - [Click Here for the downloaded MP4 video saved locally.](./src/demo-MP4.mp4)
+  > - [Click Here for the downloaded webm video saved locally.](./src/demo-webm.webm)
 
 :loop: Here's a GIF showing the app's overall functionality:
 
-![README Walkthrough Gif](./src/README Generator Walkthrough Gif.gif)
+![README Walkthrough Gif](./src/demo-gif.gif)
 
   ## Usage:
   🚀 This Node.js application uses the NPM Inquirer package to help users automatically generate their own professional `README.md` files. Once generated the file will include the title, a description, a hyper-linked table of contents, installation instructions (if any), an area to describe what the application should be used for, the license used for your repository application, a list of any additional contriubutors, what tests you should be able to run to troubleshoot, as well as contact information should someone have questions, comments, or concerns about your application/repository.
